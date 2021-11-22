@@ -91,7 +91,7 @@ img {
     // Background Image Transparent
     &::before {
       content: '';
-      background: $bg-image no-repeat center right / cover;
+      background: url('/dist/img/showcase.jpg') no-repeat center right / cover;
       position: absolute;
       top: 0;
       left: 0;
@@ -123,7 +123,7 @@ img {
 
     &::before {
       content: '';
-      background: $bg-image no-repeat 20% 12.46% / cover;
+      background: url('/dist/img/showcase.jpg') no-repeat 20% 12.46% / cover;
       position: absolute;
       top: 0;
       left: 0;
@@ -352,7 +352,7 @@ img {
   &-a {
     .text-fields {
       display: grid;
-      grid-template-areas: 
+      grid-template-areas:
         'name subject'
         'email phone'
         'message message';
@@ -380,7 +380,7 @@ img {
 
       .text-input {
         font-family: $font-stack;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
       }
     }
 

@@ -36,7 +36,7 @@
       height: 10rem;
 
       &::before {
-        background: $bg-image no-repeat 20% 50% / cover;
+        background: url('/dist/img/showcase.jpg') no-repeat 20% 50% / cover;
       }
     }
   }
