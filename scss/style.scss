@@ -91,7 +91,7 @@ img {
     // Background Image Transparent
     &::before {
       content: '';
-      background: url('/dist/img/showcase.jpg') no-repeat center right / cover;
+      background: $bg-image no-repeat center right / cover;
       position: absolute;
       top: 0;
       left: 0;
@@ -123,7 +123,7 @@ img {
 
     &::before {
       content: '';
-      background: url('/dist/img/showcase.jpg') no-repeat 20% 12.46% / cover;
+      background: $bg-image no-repeat 20% 12.46% / cover;
       position: absolute;
       top: 0;
       left: 0;
